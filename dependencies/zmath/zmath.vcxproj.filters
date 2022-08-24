@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\quaternion.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pch.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vector3.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vector2.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\matrix44.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vector4.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\triangle.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plane.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clipping.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ray.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\collision.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\zmath.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{dfaba26f-e77b-4f7b-bb8a-67010ba32965}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{e698be9a-97fe-48ab-9ebc-a8e714b4f018}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\framework.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pch.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\quaternion.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vector2.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vector3.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\zmath.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\matrix44.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vector4.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\triangle.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\plane.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\clipping.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ray.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\collision.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
